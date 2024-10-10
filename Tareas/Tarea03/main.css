@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+  }
+  
+  .container {
+    width: 80vw;
+    height: 80vh;
+    background-color: #222;
+    border: 2px solid #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ff6347;
+  }
+  
